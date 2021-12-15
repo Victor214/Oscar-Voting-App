@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OscarWebServices:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>OscarWebServices</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="OscarWebServices-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="OscarWebServices:war exploded" />
+    </root>
+  </artifact>
+</component>
